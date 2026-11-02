@@ -15,7 +15,7 @@ This body becomes the merge commit's message on `main`: delete every comment bef
 
 ## Release checks
 
-<!-- On development's head (its short SHA): the repo's Definition of Done and its release checks (docs/workflow.md → Release), each with its summary line, run through `niumi heavy`. -->
+<!-- On development's head (its short SHA): the repo's Definition of Done and its release checks (docs/workflow.md → Release), each with its summary line, the queued runs through `niumi queue` (agent rules §2). -->
 
 ## Approval
 

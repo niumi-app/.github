@@ -23,7 +23,7 @@ Name another PR as "for #N", never "fixes", "closes" or "resolves #N": GitHub cl
 
 ## Checks
 
-<!-- On the head you pushed (its short SHA): each step of the repo's Definition of Done with its summary line, run through `niumi heavy`; the review's tier and verdict; what was not run, and why. -->
+<!-- On the head you pushed (its short SHA): each step of the repo's Definition of Done with its summary line (its gate, e2e, rehearsal and image runs through `niumi queue`, agent rules §2); the review's tier and verdict; what was not run, and why. -->
 
 ## Later
 
@@ -32,7 +32,7 @@ Name another PR as "for #N", never "fixes", "closes" or "resolves #N": GitHub cl
 ## Checklist
 
 - [ ] One task: one branch and one PR, with nothing unrelated in the diff
-- [ ] The repo's Definition of Done is green on this head, run through `niumi heavy`
+- [ ] The repo's Definition of Done is green on this head, its queued runs through `niumi queue`
 - [ ] New and changed behaviour has tests beside its code
 - [ ] Docs and rules match the change: this repo's in this PR, a shared one in niumi-docs
 - [ ] Every decision made here is recorded, and nothing here breaks an accepted record
